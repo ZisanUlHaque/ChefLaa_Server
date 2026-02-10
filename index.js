@@ -48,7 +48,7 @@ const pickMultiple = (arr, count) => {
 // Generate random ingredients from image (simulating AI detection)
 function generateRandomIngredients() {
   const allIngredients = Object.values(FOOD_DB).flat();
-  const count = 4 + Math.floor(Math.random() * 5); // 4-8 ingredients
+  const count = 4 + Math.floor(Math.random() * 5); 
   return pickMultiple(allIngredients, count);
 }
 
