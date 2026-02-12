@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 
 const JWT_SECRET = process.env.JWT_SECRET || "smartchef_secret_key_2024";
 
-// ================== FOOD DATABASE ==================
+
 const FOOD_DB = {
   vegetables: ["tomato", "onion", "potato", "carrot", "pepper", "garlic", "ginger", "cabbage", "spinach", "broccoli", "mushroom", "cucumber", "eggplant", "zucchini", "celery", "kale", "lettuce", "corn", "peas", "beans", "asparagus"],
   proteins: ["chicken", "beef", "mutton", "fish", "egg", "shrimp", "prawn", "crab", "salmon", "tuna", "tofu", "paneer", "sausage", "bacon", "duck", "turkey", "lamb", "pork", "lobster"],
